@@ -293,7 +293,7 @@ array[array.length - 1];
 
 ```js
 array.push(4); // adds a new element
-array.pop(4); // removes the last element
+array.pop(); // removes the last element
 //
 ```
 
@@ -325,6 +325,10 @@ for (let i = 0; i < 10; i++) {
 function foo() {}
 // the arrow function way
 const foo = () => {};
+(a) => {
+  return a + 3;
+};
+(a) => a + 3;
 ```
 
 ### Iteration Methods
